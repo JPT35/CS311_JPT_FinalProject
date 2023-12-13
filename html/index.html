@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Final Project</title>
+    <link href="../css/stylesheet.css" rel="stylesheet">
+</head>   
+
+<header>
+    <h1>Unit Converter</h1>
+</header>
+
+
+
+
+
+
+
+
+
+
+<div class="main-content">
+    <div class="content-box">
+        <h2>Input units: </h2>
+
+        <div class="inputUnits-container">
+            <h4>Enter units of measurement: </h4>
+            <input type="number" id="inputNumber" placeholder="Type integer here">
+        </div>
+
+        <div class="sub-container">
+            <h3>Conversion type: </h3>
+            <input type="radio" id="feetToMeters" name="conversionType" value="feetToMeters">
+            <label for="feetToMeters">Feet to Meters</label>
+
+            <input type="radio" id="kilometersToMiles" name="conversionType" value="kilometersToMiles">
+            <label for="kilometersToMiles"> Kilometers to Miles </label>
+
+            <input type="radio" id="celsiusToF" name="conversionType" value="celsiusToF">
+            <label for="celsiusToF">Celsius to Fahrenhiet</label>
+
+            <input type="radio" id="kilogramsToPounds" name="conversionType" value="kilogramsToPounds">
+            <label for="kilogramsToPounds">Kilograms to Pounds</label>
+
+            <input type="radio" id="gramsToOunces" name="conversionType" value="gramsToOunces">
+            <label for="gramsToOunces">Grams to Ounces</label><br>
+
+
+            <input type="radio" id="MetersToFeet" name="conversionType" value="MetersToFeet">
+            <label for="MetersToFeet">Meters to Feet</label>
+
+            <input type="radio" id="MilesToKilometers" name="conversionType" value="MilesToKilometers">
+            <label for="MilesToKilometers">Miles to Kilometers</label>
+
+            <input type="radio" id="FToCelsius" name="conversionType" value="FToCelsius">
+            <label for="FToCelsius">Fahrenhiet to Celsius</label>
+
+            <input type="radio" id="poundsToKilograms" name="conversionType" value="poundsToKilograms">
+            <label for="poundsToKilograms">Pounds to Kilograms</label>
+
+            <input type="radio" id="OuncesToGrams" name="conversionType" value="OuncesToGrams">
+            <label for="OuncesToGrams">Ounces to Grams</label><br>
+            
+            <br>
+            <button type="button" class="button-link" onclick="convert()">Convert</button>
+
+            
+
+        </div>
+
+    </div>
+
+    <div class="content-box">
+        <h2>Output: </h2>
+
+        <div class="sub-container">
+                <div id="output" class="output-box"></div>
+        </div>
+
+    </div>
+
+</div>
+
+
+<footer>
+    <p>Made by John Paul Thomas 2023</p>
+</footer>
+
+
+<script src="../js/javascript.js"></script>
+
+</body>
+</html>

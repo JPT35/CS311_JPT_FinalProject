@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header and Footer Styling */
+header, footer {
+    background-color: #800020;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main Content Grid */
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+    padding: 20px;
+    background-color: black;
+}
+
+.content-box {
+    background-color:black;
+    color: white;
+    padding: 20px;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+}
+
+.sub-container {
+    display: flex; 
+    flex-direction: column; 
+    align-items: left; 
+    justify-content: space-between; 
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #800020;
+    box-sizing: border-box;
+    
+}
+
+
+
+
+
+
+/* Button styling */
+.button-link {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 15px;
+    background-color: grey; 
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none; 
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+
+.button-link:hover {
+    background-color: grey; 
+    text-decoration: none; 
+    border-color: black;
+}
+
+.sub-container .button-link {
+    display: block; 
+    margin: 10px auto; 
+    
+}
+
+
+
+
+
+
+
+
+
+
+/* Input Assets styling */
+.inputUnits-container {
+    margin-top: auto; 
+    width: 100%; 
+    padding: 10px;
+    background-color: #800020;
+    color: white;
+    border-radius: 5px;
+    box-sizing: border-box;
+    
+}
+
+.inputUnits-container input {
+    display: block;
+    margin-bottom: 5px;
+   
+    
+}
+
+.output-box{
+    display: block;
+    margin-bottom: 5px;
+}
+
+
